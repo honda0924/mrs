@@ -2,7 +2,7 @@ package mrs.domain.model;
 
 import java.io.Serializable;
 
-import javax.persistence.GeneratedValue;
+import javax.persistence.*;
 
 public class MeetingRoom implements Serializable {
   @Id
