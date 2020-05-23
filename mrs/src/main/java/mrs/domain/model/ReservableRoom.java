@@ -6,6 +6,11 @@ import javax.persistence.*;
 
 @Entity
 public class ReservableRoom implements Serializable {
+  /**
+   *
+   */
+  private static final long serialVersionUID = 1L;
+
   @EmbeddedId
   private ReservableRoomId reservableRoomId;
 

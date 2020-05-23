@@ -1,12 +1,11 @@
 package mrs.domain.model;
 
-import java.io.Serializable;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "usr")
-public class User implements Serializable {
+public class User {
   @Id
   private String userId;
 
