@@ -1,4 +1,4 @@
-ppackage mrs.domain.model.converter;
+package mrs.domain.model.converter;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
